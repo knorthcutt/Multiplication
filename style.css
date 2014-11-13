@@ -1,0 +1,143 @@
+
+html, body { 
+
+	height:100%; 
+	margin:0; 
+	padding:0;
+}
+
+div { 
+	position:fixed;
+	width:50%; 
+	height:50%;
+}
+
+.boxOne{ 
+	top:0;  
+	left:0;  
+	background:orange;
+	border:solid black;
+}
+
+ .boxTwo{ 
+ 	top:0;  
+ 	 left:50%; 
+ 	 background:blue;
+ 	 border:solid black;   
+}
+
+ .boxThree{ 
+ 	top:50%; 
+ 	left:0;  
+ 	background:green;
+ 	border:solid black; 
+ }
+
+.boxFour { 
+	top:50%; 
+	left:50%; 
+	background:red;
+	text-decoration: blue;
+	border:solid black;
+}
+
+}
+/*This is the text boxes*/
+#picture {
+	height:50px;
+	width:100px;
+	border-style: solid;
+	top:20%;
+	left:15%;
+	text-align: center;
+	font-size: 30px;	
+}
+
+#statement {
+	height:50px;
+	width:200px;
+	border-style: solid;
+	top:20%;
+	left:75%;
+	text-align: center;
+	font-size: 30px;
+	background-color:blue;
+}
+/*#statementWriting{
+	font-size: 30px;
+	text-align: center;
+	width: 500px;
+	height: 75px;
+	padding: 20px;
+
+
+	}*/
+#repeated{
+	height:70px;
+	width:200px;
+	border-style: solid;
+	margin-left: 200px;
+	margin-top: 200px;
+	text-align: center;
+	font-size: 30px;
+	background-color: green;
+}
+/*#repeatedAddition {
+	font-size: 30px;
+	text-align: center;
+	width: 500px;
+	height: 75px;
+	padding: 20px;
+}
+*/
+#algorithm{
+	height:70px;
+	width:200px;
+	border-style: solid;
+	top:75%;
+	left:75%;
+	text-align: center;
+	font-size: 30px;
+	background-color: red;
+
+}
+
+.circle{
+	height:500px;
+	width:500px;
+	border-radius:500px;
+	left:35%;
+	top:17%;
+	background-color: purple;
+	border:solid black;
+}
+#multiplication{
+	height:80px;
+	width:300px;
+	border-style: solid;
+	top: 45%; 
+	left:41.5%;
+	text-align: center;
+	font-size: 30px;
+	padding:10px;
+	background-color: purple;
+}
+* {
+	outline: 1px solid red;
+}
+.boxOne:hover{
+	background-color: black;
+}
+.boxTwo:hover{
+	background-color: black;
+	
+}
+.boxThree:hover{
+	background-color: black;
+}
+.boxFour:hover{
+	background-color: black;
+}
+.circle:hover{
+	background-color: black;
+}
